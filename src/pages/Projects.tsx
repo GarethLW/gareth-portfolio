@@ -18,8 +18,8 @@ const item = {
 
 export default function Projects(){
   const sample = [
-    {title: 'Portfolio', description: 'This site — a minimal, responsive portfolio built with React and Tailwind.'},
-    {title: 'Todo App', description: 'A small todo app demonstrating state and localStorage.'}
+    {title: 'Portfolio', description: 'This site. A minimal, responsive portfolio built with React and Tailwind.', github: 'https://github.com/GarethLW/gareth-portfolio', link: 'https://gareth-portfolio.vercel.app/'},
+    {title: 'Kubernetes Azure Web App', description: 'Full-stack application deployed on Kubernetes. React, Node.js, MongoDB database. Docker. Horizontal Pod Autoscalers (HPA)', github: 'https://github.com/GarethLW/azurekubeapp', link: 'https://youtu.be/2N6ibsHrzoA'}
   ]
 
   return (
@@ -35,7 +35,7 @@ export default function Projects(){
       >
         {sample.map(p => (
           <motion.div key={p.title} variants={item}>
-            <ProjectCard title={p.title} description={p.description} />
+            <ProjectCard title={p.title} description={p.description} github={p.github} link={p.link} />
           </motion.div>
         ))}
       </motion.div>

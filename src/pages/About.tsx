@@ -24,7 +24,7 @@ export default function About(){
       viewport={{ once: true, amount: 0.2 }}
     >
       <motion.h2 variants={item} className="text-2xl font-bold">About</motion.h2>
-      <motion.p variants={item} className="mt-4 text-gray-600">I'm a software developer focused on building accessible, performant web apps. This portfolio is built with React + Vite + Tailwind.</motion.p>
+      <motion.p variants={item} className="mt-4 text-gray-600">I'm a developer with experience across the stack, from C# web services and SQL work to Azure deployments and front-end projects. I care about clear, reliable solutions and I enjoy exploring new ideas through personal projects in React, Android, and computer vision.</motion.p>
     </motion.div>
   )
 }
