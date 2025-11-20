@@ -24,7 +24,7 @@ export default function Hero(){
 
   return (
     <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }} className="pt-12 pb-12 text-center">
-      <TypewriterHeading texts={["Hi, I'm Gareth", 'Software Developer']} />
+      <TypewriterHeading texts={["Hi, I'm Gareth, BSc", 'Software Developer']} />
       
       <motion.div variants={item} className="mt-6 flex items-center justify-center gap-3">
           <a href="https://github.com/GarethLW" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-800 text-white px-4 py-2 rounded">GitHub</a>
